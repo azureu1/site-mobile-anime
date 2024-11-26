@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My home</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="cabeçalho">
+
+    <div class="container">
+
+      <input type="checkbox" id="menu" class="container_botao">
+      <label for="menu">
+        <span class="cabeçalho_menu-hamburguer container_imagem"></span>
+      </label>
+
+      <ul class="lista-menu">
+
+        <li class="lista-menu_titulo">Categorias</li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Progamação</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Progamação</a>
+        </li>
+
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Font-end</a>
+        </li>
+
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Infraestrutura</a>
+        </li>
+
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Business</a>
+        </li>
+
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Disign e UX</a>
+        </li>
+
+      </ul>
+
+      <img src="img/Logogarota.png" width="65" height="52" alt="Logo da Alurabooks" class="container_imagem">
+
+    </div>
+
+    <div class="container">
+
+      <a href="#"><img src="img/Favoritos fofa.png" width="45" height="42" alt="Meus favoritos" class="container_imagem"></a>
+      <a href="#"><img src="img/Compras.png" width="45" height="42" alt="Carrinhos de compras" class="container_imagem"></a>
+      <a href="#"><img src="img/Perfil gotica.png" width="45" height="42" alt="Meu perfil" class="container_imagem"></a>
+
+    </div>
+
+  </header>
+
+  <section class="banner">
+
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+
+    <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+
+
+  </section>
+
+  <section class="carrossel">
+
+    <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><a href=""><img src="img/Guia Front-end.svg" alt="livro"></a></div>
+        <div class="swiper-slide"><a href=""><img src="img/Gestão2.svg" alt="livro"></a></div>
+        <div class="swiper-slide"><a href=""><img src="img/MetricasAgeis.svg" alt="livro"></a></div>
+        <div class="swiper-slide"><a href=""><img src="img/Portugol.svg" alt="livro"></a></div>
+        <div class="swiper-slide"><a href=""><img src="img/ReactNative.svg" alt="livro"></a></div>
+        <div class="swiper-slide"><a href=""><img src="img/UX.svg" alt="livro"></a></div>
+        ...
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1° linha -->
+      <div class="card__descrição">
+        <!-- 1° coluna -->
+        <div class="descrição">
+          <h3 class="descrição__titulo">Talvez você tambem curta</h3>
+          <h2 class="descrição__titulo-livro">Site Hentai Bakai</h2>
+          <p class="descrição__texto">FOFO</p>
+        </div>
+        <!-- 2° coluna -->
+        <img src="img/Bakai.png" width="155" height="152" class="descrição__imagem">
+
+      </div>
+
+      <!-- 2° linha -->
+      <div class="card__botões">
+        <!-- 1°coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/Favoritos fofa.png" width="45" height="42" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/Compras.png" width="45" height="42" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2°coluna -->
+        <a href="https://bakai.org/hentai/" class="botões__ancora">Link do Site</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="carrossel">
+
+    <h2 class="carrossel__titulo">Male x Female</h2>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="livro"></div>
+        <div class="swiper-slide"><img src="img/Gestão2.svg" alt="livro"></div>
+        <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt="livro"></div>
+        <div class="swiper-slide"><img src="img/Portugol.svg" alt="livro"></div>
+        <div class="swiper-slide"><img src="img/ReactNative.svg" alt="livro"></div>
+        <div class="swiper-slide"><img src="img/UX.svg" alt="livro"></div>
+        ...
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1° linha -->
+      <div class="card__descrição">
+        <!-- 1° coluna -->
+        <div class="descrição">
+          <img src="img/Star 1.svg" class="descrição__imagem2">
+          <img src="img/Star 1.svg" class="descrição__imagem2">
+          <img src="img/Star 1.svg" class="descrição__imagem2">
+          <img src="img/Star 1.svg" class="descrição__imagem2">
+          <img src="img/Star 1.svg" class="descrição__imagem2">
+          <h3 class="descrição__titulo">Melhor Site de Videos</h3>
+          <h2 class="descrição__titulo-livro">Ruler34Videos</h2>
+          <p class="descrição__texto">Site de videos hentai</p>
+        </div>
+        <!-- 2° coluna -->
+        <img src="img/Ruler34Videos.png" width="155" height="152" class="descrição__imagem">
+
+      </div>
+
+      <!-- 2° linha -->
+      <div class="card__botões">
+        <!-- 1°coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/Favoritos fofa.png" width="45" height="42" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/Compras.png" width="45" height="42" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2°coluna -->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">SITES HENTAI</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item">
+        <a href="https://azureu1.github.io/meu-primeiro-site/" class="tópicos__link">Meu Lar</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://www.muitohentai.com" class="tópicos__link">Muito Hentai</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://brasilhentai.com" class="tópicos__link">Brasil Hentai</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://megahentai.biz" class="tópicos__link">Mega Hentai</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://mangashentais.com" class="tópicos__link">Mangas Hentai</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">-</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">-</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">-</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">AUTORES DE HENTAI</h2>
+    <ul class="tópicos__lista">
+
+      <li class="tópicos__item">
+        <a href="https://rule34video.com/models/shinkiart/" class="tópicos__link">Shinkiart</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://rule34video.com/models/flim13/" class="tópicos__link">Flim13</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://rule34video.com/models/deliriumbear/" class="tópicos__link">DeliriumBear</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">-</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">-</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">-</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">-</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">-</a>
+      </li>
+    </ul>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+</body>
+
+</html>
