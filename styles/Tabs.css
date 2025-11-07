@@ -1,0 +1,39 @@
+.tabs {
+  display: flex;
+  overflow: auto;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.tab {
+  padding: 40px 20px;
+  margin-top: 20px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+  transition: background 0.3s;
+}
+
+.tab.active {
+  background: #fff;
+  font-weight: bold;
+}
+
+.tab:hover {
+  background: #ccc;
+}
+
+.conteudo {
+  background: transparent;
+  border-radius: 0 5px 5px 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
