@@ -4,6 +4,7 @@
 @import url("styles/tópicos.css");
 @import url("styles/contato.css");
 @import url('styles/rodapé.css');
+@import url('styles/Tabs.css');
 
 :root {
     --cor-de-fundo: #EBECEE;
